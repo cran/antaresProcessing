@@ -1,4 +1,4 @@
-5df1bacf3c295ad9e7354c3193d69ab4 *DESCRIPTION
+65a9e30208e5d4fdb1175aa5bff5205e *DESCRIPTION
 cf47069209a8ee5e05e334b69c3deb13 *LICENSE
 24ee60fd119ff8483997f49354812155 *NAMESPACE
 c6f2aae728ef125acda80f2ee4b492e9 *NEWS
@@ -39,7 +39,7 @@ b47a41db4bb9d27ad7ad9f83739bcc4a *man/netLoadRamp.Rd
 41e6e6d8a60e8704fc322c9cf140948d *man/surplusSectors.Rd
 01a9286576042459a6449ca6e7bbf435 *man/synthesize.Rd
 f9eed79254b28b8f8c224b1f616f57bd *tests/testthat.R
-f524e19a3fbb1b7c4eeb816e24e5fc26 *tests/testthat/helper_init.R
+a65ffdb2cac78ca7ca7227d4fa8f54a5 *tests/testthat/helper_init.R
 4640201fa6fff97e4e3dfc9a46e752d8 *tests/testthat/test-addDownwardMargin.R
 3a875390297c10f007324b2f1c6b06a1 *tests/testthat/test-addLoadFactorLink.R
 590957ebceed8976d4393545ef2e1706 *tests/testthat/test-addRamps.R
