@@ -1,8 +1,8 @@
 Package: antaresProcessing
 Type: Package
 Title: Antares Results Processing
-Version: 0.12
-Date: 2017-11-13
+Version: 0.13
+Date: 2017-12-14
 Authors@R: c(
     person("Jalal-Edine", "ZAWAM", , "jalal-edine.zawam@rte-france.com", role = c("aut", "cre")),
     person("Francois", "Guillem", , "francois.guillem@rte-france.com", role = "aut"),
@@ -30,11 +30,11 @@ VignetteBuilder: knitr
 Encoding: UTF-8
 biocViews: Infrastructure, DataImport
 NeedsCompilation: no
-Packaged: 2017-12-07 10:04:17 UTC; jalazawa
+Packaged: 2017-12-14 09:34:48 UTC; jalazawa
 Author: Jalal-Edine ZAWAM [aut, cre],
   Francois Guillem [aut],
   Benoit Thieurmel [aut],
   Titouan Robert [aut],
   RTE [cph]
 Repository: CRAN
-Date/Publication: 2017-12-07 10:17:18 UTC
+Date/Publication: 2017-12-14 16:15:49 UTC

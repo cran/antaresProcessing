@@ -1,7 +1,7 @@
-ff0edf934ad273424bc74e12b0080f35 *DESCRIPTION
+6609e3033d128ba24ce023358cd58c76 *DESCRIPTION
 cf47069209a8ee5e05e334b69c3deb13 *LICENSE
-47172ae470f67f7f573824567274997e *NAMESPACE
-6834c1b8f7d0d8f896902150f054b9cb *NEWS
+4a8e9a54ddf0d2aafd8cc6a4038fd152 *NAMESPACE
+6480e89c31e1cc64551025b13519ce1c *NEWS
 9790b8470cc782f3d1974913f831b314 *R/ExternalDependency.R
 81320f22809ef09a813660139988591b *R/addDownwardMargin.R
 3136effbec540e8518845ca50ae72019 *R/addExportAndImport.R
@@ -22,12 +22,12 @@ e667d86666b29ba858161c0f1b78ba07 *R/netLoadRamp.R
 85ae9caf3ee442ac69421678587d288f *R/surplusClusters.R
 4080c97dd5d681e59cfba13e1a8b2fe4 *R/surplusSectors.R
 a49683b869348b6764c5db9b2a29fafc *R/synthesize.R
-04d72be1e5a8584bb9334191afb62045 *R/thermalGeneration.R
+50f1a24169f7fbc299b7067e4b74515a *R/thermalGeneration.R
 607d79da61f09ab3be10c5e3e687a6cf *R/zzz.R
 834c1b5efe8d3dcb82005748af5791a4 *README.md
 52dd20ca2561b39025a49af49034accf *build/vignette.rds
 95539010a22042d2955efaa59d54ab69 *inst/doc/antaresProcessing.Rmd
-199b96061d74a9de1dbd81cf01ee2055 *inst/doc/antaresProcessing.html
+b4b31e92de457f2052cddd6d0ff23364 *inst/doc/antaresProcessing.html
 192a10d41aa2126231a4ab25f017b476 *inst/testdata/20170707-1355eco-test.h5
 a1737d44af0a470a8595ffa45dd77605 *man/addDownwardMargin.Rd
 e5f5e178f33ea6f5607e21b52e5079ea *man/addExportAndImport.Rd
@@ -46,9 +46,9 @@ ec24f788eb0147407fd28818e4798bb7 *man/externalDependency.Rd
 f2efdc976616d2df3d6ad8801f0ff105 *man/surplusClusters.Rd
 64e359ce750513147ab10040d48502a1 *man/surplusSectors.Rd
 9e4c8dff6f74b18d86c8f260458c59c7 *man/synthesize.Rd
-7d576c5fe3005c55b8768c5184222cde *man/thermalGeneration.Rd
+6e22e7d7ccc2abf7b33689799f202a86 *man/thermalGroupCapacities.Rd
 0320503dcd9f94a603be81013a50ed9b *tests/testthat.R
-78c97a0c3d4c1379665a01683f87d479 *tests/testthat/helper_init.R
+e62656faf794bcd30d441787328dbe34 *tests/testthat/helper_init.R
 bc4893bb349ad7b8b258a430eff96f92 *tests/testthat/test-addDownwardMargin.R
 52b0a79593699e6ab46d63ed8251ed3b *tests/testthat/test-addExportAndImport.R
 b87d34fbad98bec461aebbab378cbdb2 *tests/testthat/test-addLoadFactorLink.R
@@ -60,7 +60,7 @@ cce6ece0b49a5be4f443c1595b0e65ec *tests/testthat/test-compare.R
 586e8d8d743f5c13f25d6ae5eb3c7ea9 *tests/testthat/test-fillClusterDesc.R
 74b12f9daa98d7571002e6956d46e2ff *tests/testthat/test-getValues.R
 737c393d4452e2aa50eb60d2b2afe610 *tests/testthat/test-h5_allias.R
-1c44eb2e7257da1f2519d45f6650deaa *tests/testthat/test-h5_processing.R
+e89672d4fc4b9b547a15c5b9fdd4d30d *tests/testthat/test-h5_processing.R
 468a3b83d6783f6dccb9bd1fb6b8c357 *tests/testthat/test-loadFactor.R
 798d111d15e5f7c4637507ea57f9f88f *tests/testthat/test-mergeAllAntaresData.R
 ebea83ba2980ea25fc08e4c35ad100bd *tests/testthat/test-modulation.R
@@ -71,5 +71,5 @@ a239bebdeba2dccc0689d3c5d277a46c *tests/testthat/test-netLoadRamp.R
 21aba9e764580a7dd19bc93f12325c49 *tests/testthat/test-surplusClusters.R
 8187d0c0c9d787faf00bea64dc2e2114 *tests/testthat/test-surplusSectors.R
 112bc02b1fa8202136000d8a3a519282 *tests/testthat/test-synthesize.R
-deba97e518d751add56359493eb86e58 *tests/testthat/test-thermalGeneration.R
+6338ea8d975132d9993734883b0bbaf0 *tests/testthat/test-thermalGroupCapacities.R
 95539010a22042d2955efaa59d54ab69 *vignettes/antaresProcessing.Rmd
