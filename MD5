@@ -1,7 +1,7 @@
-aa34294ebb3ca7771affb9439eef8513 *DESCRIPTION
+afcf8cc16ccfe68dacbb7ade9f03d68f *DESCRIPTION
 cf47069209a8ee5e05e334b69c3deb13 *LICENSE
 4a8e9a54ddf0d2aafd8cc6a4038fd152 *NAMESPACE
-14efa63eae3a0df10aa4d91fe8439e24 *NEWS
+d9526e2e0721f6d41a0b12a3eadc25bf *NEWS
 9790b8470cc782f3d1974913f831b314 *R/ExternalDependency.R
 81320f22809ef09a813660139988591b *R/addDownwardMargin.R
 3136effbec540e8518845ca50ae72019 *R/addExportAndImport.R
@@ -13,7 +13,7 @@ f81da719e148f9440998935c08ff670e *R/checkColumns.R
 b21db16690c6dc7d9966d3267826a36f *R/compare.R
 372d21cca17424c3fcac2845a2639ad0 *R/fillClusterDesc.R
 c355b1bf7b013ee8650046581bc7754d *R/getValues.R
-9eedafff2a46a12487bca7da2b9630b9 *R/h5_processing.R
+63002fdef44d23f3fdb2bad2427a2ccb *R/h5_processing.R
 f85b5d8a92867b81b93a20d4f31b6c3d *R/loadFactor.R
 e328b65967624641c0eecb902b7b060d *R/mergeAllAntaresData.R
 c32697fa60f94c37b1c38ae4b632d079 *R/modulation.R
@@ -27,7 +27,7 @@ a49683b869348b6764c5db9b2a29fafc *R/synthesize.R
 cfa70b48105f52a8e174bc2bc98f72a9 *README.md
 b7913c64436876d1e713d4becab4af67 *build/vignette.rds
 95539010a22042d2955efaa59d54ab69 *inst/doc/antaresProcessing.Rmd
-0cf55b4ed88168535a20379fd8f10566 *inst/doc/antaresProcessing.html
+971138754d640e52c6f9e230a22e5a30 *inst/doc/antaresProcessing.html
 192a10d41aa2126231a4ab25f017b476 *inst/testdata/20170707-1355eco-test.h5
 a1737d44af0a470a8595ffa45dd77605 *man/addDownwardMargin.Rd
 e5f5e178f33ea6f5607e21b52e5079ea *man/addExportAndImport.Rd
@@ -48,7 +48,7 @@ f2efdc976616d2df3d6ad8801f0ff105 *man/surplusClusters.Rd
 9e4c8dff6f74b18d86c8f260458c59c7 *man/synthesize.Rd
 6e22e7d7ccc2abf7b33689799f202a86 *man/thermalGroupCapacities.Rd
 0320503dcd9f94a603be81013a50ed9b *tests/testthat.R
-e62656faf794bcd30d441787328dbe34 *tests/testthat/helper_init.R
+6780afd5dfd78a05e49eb27f9d52e017 *tests/testthat/helper_init.R
 bc4893bb349ad7b8b258a430eff96f92 *tests/testthat/test-addDownwardMargin.R
 52b0a79593699e6ab46d63ed8251ed3b *tests/testthat/test-addExportAndImport.R
 b87d34fbad98bec461aebbab378cbdb2 *tests/testthat/test-addLoadFactorLink.R
@@ -60,7 +60,7 @@ cce6ece0b49a5be4f443c1595b0e65ec *tests/testthat/test-compare.R
 586e8d8d743f5c13f25d6ae5eb3c7ea9 *tests/testthat/test-fillClusterDesc.R
 74b12f9daa98d7571002e6956d46e2ff *tests/testthat/test-getValues.R
 737c393d4452e2aa50eb60d2b2afe610 *tests/testthat/test-h5_allias.R
-e89672d4fc4b9b547a15c5b9fdd4d30d *tests/testthat/test-h5_processing.R
+ee1f5b3defb613e7827ae24145f00b98 *tests/testthat/test-h5_processing.R
 468a3b83d6783f6dccb9bd1fb6b8c357 *tests/testthat/test-loadFactor.R
 798d111d15e5f7c4637507ea57f9f88f *tests/testthat/test-mergeAllAntaresData.R
 ebea83ba2980ea25fc08e4c35ad100bd *tests/testthat/test-modulation.R
