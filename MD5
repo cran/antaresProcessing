@@ -1,7 +1,7 @@
-9d2b80fe83e8a02e5c7211923c7b808e *DESCRIPTION
+014a252879783b5f3805651b86e9be25 *DESCRIPTION
 cf47069209a8ee5e05e334b69c3deb13 *LICENSE
 4a8e9a54ddf0d2aafd8cc6a4038fd152 *NAMESPACE
-3fa2acc98b8ce2f5eabfa5efc9587eba *NEWS
+c70ca92b87ba7f88ea0205ac3689d58c *NEWS
 9790b8470cc782f3d1974913f831b314 *R/ExternalDependency.R
 81320f22809ef09a813660139988591b *R/addDownwardMargin.R
 3136effbec540e8518845ca50ae72019 *R/addExportAndImport.R
@@ -27,7 +27,7 @@ a49683b869348b6764c5db9b2a29fafc *R/synthesize.R
 cfa70b48105f52a8e174bc2bc98f72a9 *README.md
 b7913c64436876d1e713d4becab4af67 *build/vignette.rds
 95539010a22042d2955efaa59d54ab69 *inst/doc/antaresProcessing.Rmd
-c13ead1ad875fc8adfacf403b69faabd *inst/doc/antaresProcessing.html
+15f6e98054856332a84734f88e518e6b *inst/doc/antaresProcessing.html
 192a10d41aa2126231a4ab25f017b476 *inst/testdata/20170707-1355eco-test.h5
 a1737d44af0a470a8595ffa45dd77605 *man/addDownwardMargin.Rd
 e5f5e178f33ea6f5607e21b52e5079ea *man/addExportAndImport.Rd
@@ -60,7 +60,7 @@ d31dc286c1ba3c7635a78cb2b5fb8401 *tests/testthat/test-externalDependency.R
 586e8d8d743f5c13f25d6ae5eb3c7ea9 *tests/testthat/test-fillClusterDesc.R
 fe53302160ba7f9f704c8b6d8829d6fc *tests/testthat/test-getValues.R
 737c393d4452e2aa50eb60d2b2afe610 *tests/testthat/test-h5_allias.R
-b463e4ba68e163e5dfeba44a0d40973e *tests/testthat/test-h5_processing.R
+93b92535133ccf12c039378d71b0dfdf *tests/testthat/test-h5_processing.R
 10d2be11a589114dcff39168defe8d1f *tests/testthat/test-loadFactor.R
 798d111d15e5f7c4637507ea57f9f88f *tests/testthat/test-mergeAllAntaresData.R
 8a499e652dc4b46a7a75a1ae0690199c *tests/testthat/test-modulation.R
