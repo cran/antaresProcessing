@@ -4,19 +4,34 @@
 \alias{addProcessingH5}
 \title{Add process results of antaresProcessing to an ANTARES .h5 files}
 \usage{
-addProcessingH5(opts = simOptions(), mcY = c("mcInd", "mcAll"),
-  timeStep = "hourly", addNetLoad = FALSE, addDownwardMargin = FALSE,
-  addUpwardMargin = FALSE, addExportAndImport = FALSE,
-  addLoadFactorLink = FALSE, correctBalance = FALSE,
-  externalDependency = FALSE, loadFactor = FALSE, modulation = FALSE,
-  netLoadRamp = FALSE, surplus = FALSE, surplusClusters = FALSE,
-  thermalAvailabilities = FALSE, linkCapacity = FALSE,
-  mustRun = FALSE, allProcess = FALSE, evalAreas = list(),
-  evalLinks = list(), evalClusters = list(), evalDistricts = list(),
-  nThreads = 1)
+addProcessingH5(
+  opts = simOptions(),
+  mcY = c("mcInd", "mcAll"),
+  timeStep = "hourly",
+  addNetLoad = FALSE,
+  addDownwardMargin = FALSE,
+  addUpwardMargin = FALSE,
+  addExportAndImport = FALSE,
+  addLoadFactorLink = FALSE,
+  externalDependency = FALSE,
+  loadFactor = FALSE,
+  modulation = FALSE,
+  netLoadRamp = FALSE,
+  surplus = FALSE,
+  surplusClusters = FALSE,
+  thermalAvailabilities = FALSE,
+  linkCapacity = FALSE,
+  mustRun = FALSE,
+  allProcess = FALSE,
+  evalAreas = list(),
+  evalLinks = list(),
+  evalClusters = list(),
+  evalDistricts = list(),
+  nThreads = 1
+)
 }
 \arguments{
-\item{opts}{\code{simOptions} obtain wich \link[antaresRead]{setSimulationPath}}
+\item{opts}{\code{simOptions} obtain which \link[antaresRead]{setSimulationPath}}
 
 \item{mcY}{\code{character}, "mcInd" or "mcAll".}
 
@@ -31,8 +46,6 @@ addProcessingH5(opts = simOptions(), mcY = c("mcInd", "mcAll"),
 \item{addExportAndImport}{\code{boolean} refer to \link[antaresProcessing]{addExportAndImport}}
 
 \item{addLoadFactorLink}{\code{boolean} refer to \link[antaresProcessing]{addLoadFactorLink}}
-
-\item{correctBalance}{\code{boolean} refer to \link[antaresProcessing]{correctBalance}}
 
 \item{externalDependency}{\code{boolean} refer to \link[antaresProcessing]{externalDependency}}
 
@@ -51,7 +64,7 @@ Should loadFactorAvailable be added to the result of \link[antaresProcessing]{lo
 
 \item{linkCapacity}{\code{boolean} should export and import capacities be computed by \link[antaresProcessing]{addExportAndImport}.}
 
-\item{mustRun}{\code{boolean} should the production in must run mode substracted to the net load \link[antaresProcessing]{addNetLoad}.
+\item{mustRun}{\code{boolean} should the production in must run mode subtracted to the net load \link[antaresProcessing]{addNetLoad}.
 Should the must run production be ignored in the computation of the netLoadRamp see \link[antaresProcessing]{netLoadRamp}.}
 
 \item{allProcess}{\code{boolean} All process in one argument.}
@@ -94,7 +107,6 @@ addProcessingH5(opts = opts,  mcY = "mcInd",
                addUpwardMargin = TRUE,
                addExportAndImport = TRUE,
                addLoadFactorLink = TRUE,
-               correctBalance = TRUE,
                externalDependency = TRUE,
                loadFactor = TRUE,
                modulation = TRUE,

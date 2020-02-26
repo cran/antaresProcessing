@@ -7,7 +7,8 @@
 addDownwardMargin(x)
 }
 \arguments{
-\item{x}{An object of class \code{\link[antaresRead]{readAntares}} (or \code{\link[antaresRead]{simOptions}}) created with 'readAntares()' (or 'setSimulationPath()')}
+\item{x}{An object of class \code{antaresData} created with
+\code{\link[antaresRead]{readAntares}}}
 }
 \value{
 The function modifies its input by adding to it two new columns
