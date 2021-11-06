@@ -1,7 +1,7 @@
 Package: antaresProcessing
 Type: Package
 Title: 'Antares' Results Processing
-Version: 0.18.0
+Version: 0.18.1
 Authors@R: c(
     person("Veronique", "Bachelier", email = "veronique.bachelier@rte-france.com", role = c("aut", "cre")),
     person("Jalal-Edine", "ZAWAM", role = "aut"),
@@ -20,16 +20,15 @@ Description:
 URL: https://github.com/rte-antares-rpackage/antaresProcessing
 BugReports: https://github.com/rte-antares-rpackage/antaresProcessing/issues
 License: GPL (>= 2) | file LICENSE
-LazyData: TRUE
 Depends: antaresRead (>= 1.1.5)
 Imports: data.table, methods, stats
 Suggests: rhdf5 (>= 2.24.0), parallel, testthat, knitr, rmarkdown, covr
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.2
 VignetteBuilder: knitr
 Encoding: UTF-8
 biocViews: Infrastructure, DataImport
 NeedsCompilation: no
-Packaged: 2020-02-24 08:41:30 UTC; perri
+Packaged: 2021-11-05 10:12:41 UTC; BenoitThieurmel
 Author: Veronique Bachelier [aut, cre],
   Jalal-Edine ZAWAM [aut],
   Francois Guillem [aut],
@@ -38,4 +37,4 @@ Author: Veronique Bachelier [aut, cre],
   RTE [cph]
 Maintainer: Veronique Bachelier <veronique.bachelier@rte-france.com>
 Repository: CRAN
-Date/Publication: 2020-02-26 16:30:03 UTC
+Date/Publication: 2021-11-07 00:40:05 UTC

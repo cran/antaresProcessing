@@ -74,10 +74,9 @@ surplus <- function(x, timeStep = "annual", synthesis = FALSE, groupByDistrict =
   prodVars <- setdiff(pkgEnv$production, "PSP")
 
   x <- .checkAttrs(x, timeStep = "hourly", synthesis = FALSE)
-  x <- .checkColumns(x, list(areas = c("LOAD", "MRG. PRICE", "OP. COST", prodVars, "PSP", "ROW BAL."),
+  x <- .checkColumns(x, list(areas = c("LOAD", "MRG. PRICE", "OP. COST", "PSP", "ROW BAL."),
                              links = "CONG. FEE (ALG.)"))
-  if(is.null(opts))
-  {
+  if(is.null(opts)){
     opts <- simOptions(x)
   }
 
@@ -117,7 +116,7 @@ surplus <- function(x, timeStep = "annual", synthesis = FALSE, groupByDistrict =
   if (is.null(vnodes)) {
     storageVars <- "PSP"
   } else {
-    storageVars <- c("PSP", attr(x, "virtualNodes")$storageFlexibility)
+    storageVars <- intersect(colnames(x$areas), unique(c("PSP", attr(x, "virtualNodes")$storageFlexibility)))
   }
   storage <- rowSums(x$areas[,storageVars, with = FALSE])
   res[, storageSurplus := storage * x$areas$`MRG. PRICE`]
