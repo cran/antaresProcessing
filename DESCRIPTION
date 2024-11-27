@@ -1,13 +1,13 @@
 Package: antaresProcessing
 Type: Package
 Title: 'Antares' Results Processing
-Version: 0.18.2
+Version: 0.18.3
 Authors@R: c(
     person("Tatiana", "Vargas", email = "tatiana.vargas@rte-france.com", role = c("aut", "cre")),
-    person("Jalal-Edine", "ZAWAM", role = "aut"),
-    person("Francois", "Guillem", role = "aut"),
-    person("Benoit", "Thieurmel", role = "aut"),
-    person("Titouan",  "Robert", role = "aut"),
+    person("Jalal-Edine", "ZAWAM", role = "ctb"),
+    person("Francois", "Guillem", role = "ctb"),
+    person("Benoit", "Thieurmel", role = "ctb"),
+    person("Titouan",  "Robert", role = "ctb"),
     person("RTE", role = "cph")
     )
 Description: 
@@ -19,7 +19,7 @@ Description:
     of consumers, producers and sectors.
 URL: https://github.com/rte-antares-rpackage/antaresProcessing
 BugReports: https://github.com/rte-antares-rpackage/antaresProcessing/issues
-License: GPL (>= 2) | file LICENSE
+License: GPL (>= 3)
 Depends: antaresRead (>= 1.1.5)
 Imports: data.table, methods, stats
 Suggests: parallel, testthat, knitr, rmarkdown, covr
@@ -28,13 +28,13 @@ VignetteBuilder: knitr
 Encoding: UTF-8
 biocViews: Infrastructure, DataImport
 NeedsCompilation: no
-Packaged: 2024-06-25 10:01:35 UTC; berthetcle
+Packaged: 2024-11-27 09:11:16 UTC; berthetcle
 Author: Tatiana Vargas [aut, cre],
-  Jalal-Edine ZAWAM [aut],
-  Francois Guillem [aut],
-  Benoit Thieurmel [aut],
-  Titouan Robert [aut],
+  Jalal-Edine ZAWAM [ctb],
+  Francois Guillem [ctb],
+  Benoit Thieurmel [ctb],
+  Titouan Robert [ctb],
   RTE [cph]
 Maintainer: Tatiana Vargas <tatiana.vargas@rte-france.com>
 Repository: CRAN
-Date/Publication: 2024-06-25 12:30:10 UTC
+Date/Publication: 2024-11-27 13:20:11 UTC
